@@ -1,0 +1,25 @@
+{
+    "name": "alitalaghat/slim-facades",
+    "description": "Facades for Slim 4.",
+    "type": "library",
+    "version": "1.0.1",
+    "keywords": ["slim","facades"],
+    "homepage": "https://github.com/alitalaghat/slim-facades",
+    "require": {
+        "php": ">=7.2",
+        "slim/slim": ">=4.0"
+    },
+    "license": "Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Mohammad ali Talaghat",
+            "email": "ali@talaghat.ir"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SlimFacades\\": "src"
+        }
+    }
+}
